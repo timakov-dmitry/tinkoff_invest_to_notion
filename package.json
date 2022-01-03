@@ -1,0 +1,16 @@
+{
+  "name": "invest_platform_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "modules/tinkoff_api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^0.4.11",
+    "request-promise": "^4.2.6"
+  },
+  "type": "module"
+}
