@@ -1,7 +1,10 @@
-import TINKOFF_API from 'modules/tinkoff_api'
+import dotenv from 'dotenv';
+import  DAILY_REPORT from "./daily_report.js";
 
-const tinkoff = new TINKOFF_API();
+dotenv.config();
+const daily_report = new DAILY_REPORT()
 
-tinkoff.get_portfolio()
+
+daily_report.build()
     .then(console.log)
     .catch(console.log)
